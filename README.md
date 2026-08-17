@@ -2,6 +2,10 @@
 
 To fetch the latest 10-K annual report for a set of companies from SEC EDGAR and save each as a PDF.
 
+## Prerequisites
+
+- [`uv`](https://docs.astral.sh/uv/) — install with `curl -LsSf https://astral.sh/uv/install.sh | sh` (macOS/Linux) or see the [install docs](https://docs.astral.sh/uv/getting-started/installation/) for other options.
+
 ## Setup
 
 ```bash
