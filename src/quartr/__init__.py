@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from quartr!")
+"""Fetch the latest 10-K annual reports from SEC EDGAR."""

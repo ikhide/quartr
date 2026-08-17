@@ -19,6 +19,9 @@ env/
 .env.*
 !.env.example
 
+# Fetched reports
+output/
+
 # Testing / coverage
 .pytest_cache/
 .coverage
