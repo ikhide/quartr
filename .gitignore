@@ -19,8 +19,9 @@ env/
 .env.*
 !.env.example
 
-# Fetched reports
+# Ignore all generated PDFs anywhere in the repo
 output/
+*.pdf
 
 # Testing / coverage
 .pytest_cache/
