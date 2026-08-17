@@ -1,0 +1,19 @@
+[project]
+name = "quartr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Godson Atakpu", email = "ikhide.atakpu@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "typer>=0.27.1",
+]
+
+[project.scripts]
+quartr = "quartr.main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
