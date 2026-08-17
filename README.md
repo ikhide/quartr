@@ -62,7 +62,7 @@ share one browser instance.
 - The renderer uses Playwright's own browser fetch, so document downloads bypass the
   `sec_client` rate limiter. This is harmless at six companies but would matter at scale.
 
-## What I would add at scale
+## Potential Next Steps
 
 - **Docker**: A pinned, reproducible image bundling the Chromium install, so the
   environment is identical everywhere it runs.
